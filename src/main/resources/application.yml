@@ -1,0 +1,16 @@
+server:
+  port: 8089
+person:
+  name: 张三
+  sex: 男
+  age: 20
+  isMerried: false
+#  friend: 对象写法
+#      name: lisi
+#      sex: 男
+  friend: {name: lisi,sex: 男}
+#  pets: 数组写法
+#    - 小狗
+#    - 小毛
+#    - 小鸭
+  pets: [小猫,小狗]
